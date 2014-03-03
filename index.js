@@ -5,6 +5,7 @@ var express = require('express');
 var app = express();
 
 app.configure(function () {
+	app.use(express.cookieParser());
 	app.use(express.logger());
 	app.use(express.compress());
 	app.use(express.bodyParser());
