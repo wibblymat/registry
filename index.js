@@ -15,5 +15,5 @@ app.configure(function () {
 
 app.listen(process.env.PORT);
 
-module.exports.app = app;
+exports.app = app;
 require('./lib/routes');
