@@ -19,6 +19,7 @@
     "express": "~3.4.8",
     "lru-cache": "~2.5.0",
     "pg": "~2.11.1",
-    "request": "~2.30.0"
+    "request": "~2.30.0",
+    "underscore": "~1.6.0"
   }
 }
